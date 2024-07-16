@@ -1,1 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background-color: #75c6b3;
+    color: rgba(255, 255, 255, 0.964);
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1em;
+}
+
+input, select, button {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+button {
+    margin-top: 1.5em;
+    background-color: #6ea3e3;
+    color: rgb(12, 10, 10);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #397143;
+}
+
+#booking-confirmation {
+    text-align: center;
+}
